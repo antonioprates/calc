@@ -1,0 +1,11 @@
+run
+run -deprecation
+run
+run -deprecation
+set scalacOptions in ThisBuild ++= Seq("-deprecation", "-feature")
+run
+exit
+run
+exit
+run
+exit
